@@ -12,6 +12,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -44,18 +45,6 @@ img {
   clear: both;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}
-
 a {
   color: #373B47;
   text-decoration: none;
@@ -65,9 +54,20 @@ a:hover {
   color: #E95853;
 }
 
+.link {
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+
+.logo {
+  float: right;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
+
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
